@@ -1,0 +1,24 @@
+.input-container {
+    width: 230px;
+    padding: 5px;
+    background-color: #f1c895;
+    border-radius: 5px;
+}
+
+.price {
+    border-radius: 5px;
+    width: 160px;
+    height: 40px;
+    border: 2px solid blueviolet;
+}
+
+.price:focus {
+    outline: none;
+    border: 2px solid green;
+}
+
+.label-price {
+    margin-right: 10px;
+    font-family: Arial;
+    font-size: 14px;
+}
