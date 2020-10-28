@@ -3,7 +3,7 @@ let error = document.querySelector('.error-message')
 
 
 input.addEventListener("focusout" , function (e) {
-    if (input.value >0) {
+    if (input.value >= 0) {
         let span = document.createElement('span');
         span.innerHTML = `current price: ${input.value} <img class="button-close" src="img/close.png">`;
         input.style.color = "green";
